@@ -1,29 +1,30 @@
-网络应用开发实验
-# mallmanagesys
+# 网络应用开发实验
+### 前端Vue实现
 
-## Project setup
-```
-npm install
-```
+- `学号:202230443217`
+- `姓名:杨楷翼`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+####  项目简介
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- 主要界面在`src/views`文件夹下，`src/router`文件夹下存放了路由配置。
 
-### Lints and fixes files
-```
-npm run lint
-```
+- 在包下的`/admin`文件夹下存放了后台管理界面的代码。
+  - `deliveryManage.vue`文件夹下存放了管理员处理订单发货的主要界面。 
+  - `Home.vue`文件夹下存放了管理员的主界面。
+  - `LogManage.vue`文件夹下存放了管理员查看日志的主要界面。
+  - `MainData.vue`文件夹下存放了管理员查看数据,也就是每种商品的成交量的主要界面。
+  - `productManage.vue`文件夹下存放了管理员管理商品的主要界面。
+  - `UserManage.vue`文件夹下存放了管理员管理用户的主要界面。
+- 在包下的`/user`文件夹下存放了用户界面的代码。
+  - `myInfo.vue`文件夹下存放了用户信息的主要界面。
+  - `Home.vue`文件夹下存放了用户的主界面。
+  - `myLog.vue`文件夹下存放了用户查看日志的主要界面。
+  - `Order.vue`文件夹下存放了用户查看订单的主要界面。
+  - `purchaseLogs.vue`文件夹下存放了用户的购买记录的主要界面。
+  - `shopCart.vue`文件夹下存放了用户加入到购物车商品的主要界面。
+  - `index.vue`文件夹下存放了商城的主要界面。
+- `login.vue`文件夹下存放了登录界面的代码。
+- `register.vue`文件夹下存放了注册界面的代码。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# Vue
 
 
