@@ -1,11 +1,8 @@
 <template>
   <div class="product-manage">
     <el-card>
-      <!-- 搜索栏 -->
+      <!-- 状态栏 -->
       <div class="search-box">
-        <el-input v-model="searchForm.name" placeholder="请输入商品名称" style="width: 200px" clearable @clear="handleSearch">
-        </el-input>
-        <el-button type="primary" @click="handleSearch">搜索</el-button>
         <el-button type="primary" @click="handleAdd" style="float: right">添加商品</el-button>
         <el-button type="danger" @click="handleBatchDelete(multipleSelection)"
           :disabled="!multipleSelection.length">批量删除</el-button>
@@ -155,11 +152,6 @@ export default {
         console.error('获取数据失败:', error)
         this.$message.error('获取数据失败')
       }
-    },
-    // 搜索
-    handleSearch() {
-      this.page = 1
-      this.fetchData()
     },
     // 添加商品
     handleAdd() {
